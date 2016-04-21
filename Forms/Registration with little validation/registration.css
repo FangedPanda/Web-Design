@@ -1,0 +1,109 @@
+.ewrap
+{
+	width:600px;
+	margin:0px auto;
+	background-color: rgba(135,206,250,0.09);
+}
+.header
+{
+text-align: center;
+font-family: nunito;
+}
+.row1
+{
+	display:flex;
+	margin-left: 29px;
+	margin-top: 37px;
+}
+.col12
+{
+	font-family: nunito;
+	opacity:0.8;
+	font-size: 25px;
+}
+#toggle
+{
+	background-color: #5fcf80;
+	color:white;
+	border-radius: 50%;
+	text-align: center;
+	width:40px;
+	height:34px;
+	margin-right: 10px;
+	font-size: 27px;
+}
+.col11
+{
+	background-color: #5fcf80;
+	color:white;
+	border-radius: 50%;
+	text-align: center;
+	width:40px;
+	height:34px;
+	margin-right: 10px;
+	font-size: 27px;
+}
+input[type="text"],input[type="password"]
+{
+	border:none;
+	background-color: rgba(135,206,250,0.1);
+	display:block;
+	margin-left: 30px;
+	width:240px;
+	height:43px;
+	margin-top:5px;
+}
+*
+{
+	font-family: nunito;
+}
+.e
+{
+	margin-top:15px;
+}
+.e label
+{
+	display:block;
+	margin-left: 30px;
+}
+.ee
+{
+	margin-left: 30px;
+	margin-top: 12px;
+}
+.ic
+{
+	margin-top: 6px;
+	font-size: 18px;
+}
+select
+{
+	border:none;
+	background-color: rgba(135,206,250,0.1);
+	display:block;
+	width:331px;
+	height:27px;
+	margin-top:10px;
+	font-size: 18px;
+}
+.dw
+{
+	margin-top: 10px;
+}
+.ee11
+{
+	margin-top: 12px;
+}
+button
+{
+	color:white;
+	background-color: #4bc970;
+	text-align: center;
+	border-radius: 6px;
+	width:80%;
+	margin-left:33px;
+	margin-top: 11px;
+	margin-bottom: 21px;
+	font-size: 25px;
+    border: 1px solid #3ac162;
+}

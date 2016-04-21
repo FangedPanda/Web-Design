@@ -1,0 +1,146 @@
+<html>
+	<head>
+		<link href="registration.css" rel="stylesheet" type="text">
+
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script>
+	function join()
+	{
+		alert(arguments[0]+" "+arguments[1]+" "+arguments[2]);
+
+
+	}
+	function validateform()
+	{
+	var x=document.forms["formse"]["name"].value;
+	var y=document.forms["formse"]["email"].value;
+	var z=document.forms["formse"]["pass"].value;
+	if(x==null || x=="")
+	{
+
+		var a="Name is not validated";
+	}
+	else
+	{
+		var a="";
+	}
+	 if(y==null || y=="")
+	{
+		var c="Email is not validated";
+	}
+	else
+	{
+		var c="";
+	}
+	if(z==null || z=="")
+	{
+		var d="Password is not validated";
+	}
+	else
+	{
+		var d="";
+	}
+	if(a!=""||c!=""||d!="")
+	{
+	join(a,c,d);
+}
+
+}
+</script>
+<script type="text/javascript" language="javascript">
+
+         $(document).ready(function() {
+
+            $("#toggle").click(function(){
+               $(".col12").effect( "bounce", {times: 18}, 300 );
+            });
+
+         });
+      </script>
+
+
+	</head>
+
+	<body>
+		<form class="ewrap" name="formse" method="post" onsubmit="return validateform()" action="test2.php">
+			<div class="header">
+				<h1>Sign Up</h1>
+			</div>
+			<div class="row1">
+				<div id="toggle">
+					1
+				</div>
+				<div class="col12">
+					Your Basic Info
+				</div>
+			</div>
+			<div class="e">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="b1">
+		</div>
+		<div class="e">
+			<label for="email">Email:</label>
+			<input type="text" id="email">
+		</div>
+		<div class="e">
+			<label for="pass">Password:</label>
+			<input type="password" id="pass">
+		</div>
+		<div class="row1">
+				<div class="col11">
+					2
+				</div>
+				<div class="col12">
+					Your Profile
+				</div>
+		</div>
+		<div class="ee">
+			<div class="ee1">Gender:</div>
+			<div class="ic">
+			<input type="radio" name="b1" id="b1" checked="checked">
+			<label for="b1">Male</label>
+			</div>
+			<div class="ic">
+			<input type="radio" name="b1" id="b1">
+			<label for="b1">Female</label>
+			</div>
+			<div class="dw">
+				<label for="sel">You Love:</label>
+				<select id="sel">
+					<option>Games</option>
+					<option>Movies </option>
+					<option>Music</option>
+					<option>Tv Series</option>
+					<option>Anime</option>
+					<option>Chatting</option>
+				</select>
+			</div>
+			<div class="ee11">You Like:</div>
+			<div class="ic">
+			<input type="checkbox" id="b11">
+			<label for="b11">ST</label>
+			</div>
+			<div class="ic">
+			<input type="checkbox" id="b12">
+			<label for="b12">CB</label>
+			<div class="ic">
+			<input type="checkbox" id="b12">
+			<label for="b12">CDM</label>
+			<div class="ic">
+			<input type="checkbox" id="b12">
+			<label for="b12">CM</label>
+			<div class="ic">
+			<input type="checkbox" id="b12">
+			<label for="b12">RW</label>
+			<div class="ic">
+			<input type="checkbox" id="b12">
+			<label for="b12">LW</label>
+			</div>
+		</div>
+		<button type="submit">Sign Up</button>
+
+		</form>
+	</body>
+</html>
