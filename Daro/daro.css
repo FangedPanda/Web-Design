@@ -1,0 +1,384 @@
+.header
+{
+	width:87.8vw;
+	margin:0px auto;
+}
+.col1
+{
+	float:left;
+	padding: 5px;
+	margin-top:15px;
+}
+.col2
+{
+	float:right;
+	margin-top: 11px;
+}
+.clear{
+clear:both;
+}
+.col21 ul li{
+display:inline;
+padding:3px;
+}
+.col231
+{
+	float:left;
+	padding-right: 3px;
+}
+.col232
+{
+	float:right;
+}
+ul
+{
+	margin: 0px;
+}
+.col23
+{
+	float:right;
+	margin-top:10px;
+}
+.col21
+{
+	float:right;
+}
+.col22wrap
+{
+	float:right;
+	font-size: 2vmax;
+	color:#043e7e;
+}
+.navbar
+{
+	width:98.7vw;             
+	background-color: #0000A0;
+	margin-top: 20px;
+}
+.navwrap
+{
+	width:87.8vw;
+	padding:5px;
+	height:18px;
+	margin:0px auto;
+	font-size: 1vmax;
+	color:white;
+}
+.nav1
+{
+	float:left;
+	font-size: 15px;
+	margin-left: 19px;
+	font-family: verdana;
+}
+.nav11
+{
+	float:left;
+	font-size: 15px;
+	margin-left: 2px;
+	font-family: verdana;
+}
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+.midwrap
+{
+	width:384px;
+	height:123px;
+	margin-top:-149px;
+	margin-left: 5px;
+	position:absolute; 
+	text-align: left;
+	background-color: rgba(168,38,31,0.6);
+	float:left;
+}
+.book
+{
+width:100%;             
+background-color: #a8241f;
+text-align: center;
+}
+.sli1
+{
+	float:left;
+}
+.sli3
+{
+	float:right;
+}
+.slider
+{
+	width:87.8vw;
+	display:flex;
+	margin:0px auto;
+}
+.row5
+{
+	width:1200px;
+	display:flex;
+	margin:0px auto;
+}
+.col511
+{
+	font-size: 22px;
+	font-family: verdana;
+	color:white;
+}
+.col51
+{
+	background-color: #908275;
+	width:400px;
+}
+.col52
+{
+	background-color: #908275;
+	width:400px;
+}
+.col53
+{
+	background-color: #908275;
+	width:400px;
+}
+.col511 p
+{
+	padding-top: 10px;
+	padding-left: 8px;
+}
+.cor
+{
+padding-top: 10px;
+	padding-left: 8px;
+	color: white;
+	font-size: 13px;
+	font-family: verdana;
+}
+.end
+{
+width:1200px;
+margin:0px auto;
+display:flex;
+}
+.end111
+{
+	font-family: verdana;
+	font-size: 21px;
+	color: darkred;
+}
+.end11
+{
+	margin-top: 32px;
+	margin-left: 14px;
+	width:798px;
+}
+.end21
+{
+	margin-top: 22px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.end22
+{
+margin-top: 22px;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+.end23
+{
+	margin-top: 22px;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+.end24
+{
+	margin-top: 22px;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+.end112
+{
+	font-family: verdana;
+	font-size: 14px;
+}
+.end151
+{
+margin-top: 54px;
+margin-left: 38px;
+}
+.end152
+{
+margin-top: 10px;
+margin-left: 38px;
+}
+.col513
+{
+	background-color: #85786b;
+	margin-left: 10px;
+	margin-top: 38px;
+	margin-bottom:10px;
+	font-family: verdana;
+	color: white;
+	width:288px;
+	height:19px;
+}
+.col523
+{
+background-color: #85786b;
+font-family: verdana;
+color: white;
+margin-top: 35px;
+margin-left: 110px;
+width:164px;
+height:19px;
+}
+.col533
+{
+background-color: #85786b;
+font-family: verdana;
+color: white;	
+margin-top: 35px;
+width:156px;
+margin-left:239px;
+height:19px;
+}
+.end231
+{
+color: darkred;
+font-size: 24px;
+font-family: verdana;
+}
+.end232
+{
+font-size: 15px;
+padding-top: 15px;
+}
+.end2421
+{
+	margin-left: 20px;
+	margin-top: 12px;
+}
+.end2441
+{
+	margin-left: 43px;
+}
+.end243
+{
+	display: flex;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+.footer
+{
+	width:100%;
+	background-color: #312f2f;
+}
+.col2432
+{
+	margin-left: 30px;
+}
+.col2433
+{
+	margin-left: 30px;
+}
+.f1
+{
+	display:flex;
+	margin:0px auto;
+	width:1200px;
+}
+.f112
+{
+	display: flex;
+	padding-top: 14px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid white;
+	border-bottom-style: dotted;
+}
+.f113
+{
+	display:flex;
+	margin-top: 14px;
+}
+.f111
+{
+	padding-top: 25px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid white;
+	border-bottom-style: dotted;
+	width:494px;
+	font-size: 20px;
+}
+.p2
+{
+padding-left: 76px;
+}
+.p3
+{
+margin-left: 110px;
+}
+.p22
+{
+padding-left: 91px;
+}
+.p23
+{
+padding-left: 59px;
+}
+.f121
+{
+	padding-top: 25px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid white;
+	border-bottom-style: dotted;
+	width:250px;
+	margin-left: 53px;
+	font-size: 20px;
+}
+.f122
+{
+	margin-top: 15px;
+	margin-left: 49px;
+}
+.f122 ul li
+{
+	padding-left:4px;
+	display:inline;
+}
+.f13
+{
+	margin-top: 25px;
+	margin-left: 57px;
+}
+.f132
+{
+	margin-top: 19px;
+}
+.f133
+{
+	margin-top: 36px;
+}
+.f131
+{
+	font-size: 22px;
+}
+.extra3
+{
+	width:1200px;
+	margin: 0px auto;
+	background-color: #908275;
+	display:flex;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+@-ms-viewport
+{
+	width:device-width;
+}
+@media all and (max-width: 768px)
+{
+	body{font-size:0.7em;}
+}
