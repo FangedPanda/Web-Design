@@ -1,0 +1,183 @@
+
+.wrap
+{
+	width:1333px;
+	background-image: url("Knot_background.jpg");
+	margin: 0px auto;
+}
+ul li
+{
+display: inline;
+padding:6px;
+margin:5px;
+}
+.col1
+{
+margin-left: 198px;
+}
+.col2
+{
+	margin-left: 101px;
+}
+.col3
+{
+	margin-left: 300px;
+	text-align: right;
+	font-family: verdana;
+}
+.clear
+{
+clear:both;
+}
+.header
+{
+	width:100%;
+	display: flex;
+	margin:0px auto;
+	background-image:url("Knot_header.jpg");
+}
+.row2
+{
+	width:100%;
+	display: flex;
+}
+.wrap2
+{
+	width:960px;
+	margin:0px auto;
+}
+.col22
+{
+	margin-left:24px;
+	margin-right: 20px;
+	margin-top:23px;
+}
+.col231
+{
+	display:flex;
+	background-color: white;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.col23
+{
+margin-left: 16px;
+}
+.col232
+{
+	display:flex;
+	background-color: white;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.col21
+{
+	padding-top:21px;
+	padding-left:25px;
+    padding-right:10px;
+}
+ul
+{
+	margin-top:35px;
+}
+.new1
+{
+	margin-left: 5px;
+	margin-top: 10px;
+	letter-spacing: 0.25px;
+	font-family: verdana;
+}
+.new2
+{
+	text-align: right;
+	font-family:verdana;
+	letter-spacing:0.25px;
+	margin-top: 10px;
+}
+.col2322
+{
+	margin-top: 26px;
+	margin-left: 5px;
+}
+.row3
+{
+	margin-top: 10px;
+	margin-left: 65px;
+}
+.col42
+{
+	margin-top: 15px;
+	margin-left:35px;
+}
+.col41
+{
+	font-family:verdana;
+}
+.row4
+{
+	display:flex;
+}
+.col411
+{
+	font-size:30px;
+	font-family:verdana;
+	color:pink;
+	margin-left:184px;
+	margin-top:10px;
+}
+.col412
+{
+	display: flex;
+	font-size: 11.5px;
+}
+.title
+{
+	font-size: 18px;
+	color:pink;
+	font-family: verdana;
+	margin-top: 20px;
+}
+.col4121
+{
+	margin-left: 10px;
+}
+.col4122
+{
+	margin-left:130px;
+}
+.title2
+{
+	font-size: 18px;
+	color:pink;
+	font-family: verdana;
+	margin-top: 10px;
+}
+.footer
+{
+	margin-top:25px;
+	display:flex;
+	width: 100%;
+	background-image: url("knot_footer.jpg");
+}
+.f1
+{
+	margin-left: 184px;
+font-size: 11px;
+}
+.f2
+{
+	margin-left: 332px;
+font-size: 11px;
+}
+.extra
+{
+position: relative;
+top:-282px;
+left:35px;
+font-size: 25px;
+font-family: verdana;
+}
+a
+{
+color: black !important ;
+}
